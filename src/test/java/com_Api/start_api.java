@@ -60,7 +60,7 @@ public class start_api {
 	//System.out.println("Access_token: "+access_Token); 
     if(response.getStatusCode()==200)
     {
-	Test.log(LogStatus.PASS, "Access token passed");
+	    Test.log(LogStatus.PASS, "Access token passed");
     }
     else
     {
@@ -79,7 +79,6 @@ public class start_api {
 			.when().request(Method.GET,"/cms/v1/films");
 	
     String Film_response= response1.asString();
-	
 	JsonPath json_path=new JsonPath(Film_response);	
     List<String> film_ids = json_path.getList("filmid");
     first_film_id = film_ids.get(0);
@@ -96,13 +95,23 @@ public class start_api {
     }
 	
 	
-	@Test(priority=1)
-	public void distinct_showdates()
+	public String distinct_showdates()
 	{
 	String token=basic_auth();
 	Response response1 = null;
+	
 	response1 = given().contentType("application/json").headers("Authorization","Bearer "+token,"appplatform","WEBSITE","appversion","1.0.0")
 			.when().request(Method.GET,"/cms/v1/films/"+first_film_id+"/distinctshowdates");
+
+	    String distinctDate_response= response1.asString();
+		JsonPath json_path=new JsonPath(distinctDate_response);	
+	    List<String> dates = json_path.getList("groupValue");
+		String particularDates = dates.get(0);
+		System.out.println("Particular date: "+particularDates);
+		String Date_only=particularDates.split("T", 0)[0];
+		System.out.println("Date_only: "+Date_only);
+
+		
 	int val=response1.getStatusCode();
 	if(val==200) 
 	{
@@ -113,17 +122,16 @@ public class start_api {
 		Test.log(LogStatus.FAIL, "Distinct Showdates is Failed");
 
 	}
+	
+	return Date_only;
 
     }
 	
-	@Test(priority=2)
+	@Test(priority=1)
 	public void Showtimes()
 	{
-		String token=basic_auth();
-		//String film_id=films();
-		SimpleDateFormat dateformat=new SimpleDateFormat("yyyy-MM-dd");
-		Date currentDate = new Date();
-        String currentDateString = dateformat.format(currentDate);
+        String currentDateString = distinct_showdates();
+        String token=basic_auth();
 		Response response2 = null;
 		
 		response2 = given().contentType("application/json").headers("Authorization","Bearer "+token,"appplatform","WEBSITE","appversion","1.0.0")
@@ -131,16 +139,16 @@ public class start_api {
 		
 		if(response2.getStatusCode()==200)
 		{
-		Test.log(LogStatus.PASS, "Showtime is passed");
+		   Test.log(LogStatus.PASS, "Showtime is passed");
 		}
 		else
 		{
-		Test.log(LogStatus.FAIL, "Showtime is Failed");
+		   Test.log(LogStatus.FAIL, "Showtime is Failed");
 		}
 
 	}
 	
-	@Test(priority=3)
+	@Test(priority=2)
 	public void Session_id()
 	{
 		String token=basic_auth();
@@ -169,7 +177,7 @@ public class start_api {
 
 	}
 	
-	@Test(priority=4)
+	@Test(priority=3)
 	public void seat_plan()
 	{
 		String token=basic_auth();
@@ -218,7 +226,7 @@ public class start_api {
 		}
 	  }
 	
-	@Test(priority=5)
+	@Test(priority=4)
 	public void create_order()
 	{
 		String token=basic_auth();
@@ -256,7 +264,7 @@ public class start_api {
 
 	}
 	
-	@Test(priority=6)
+	@Test(priority=5)
 	public void cancel_order()
 	{
 		String token=basic_auth();

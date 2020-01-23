@@ -5,14 +5,8 @@
     <classes>
       <class name="com_Api.start_api">
         <methods>
-          <include name="Showtimes"/>
-          <include name="cancel_order"/>
           <include name="extentend"/>
           <include name="extent"/>
-          <include name="films"/>
-          <include name="seat_plan"/>
-          <include name="create_order"/>
-          <include name="Session_id"/>
           <include name="distinct_showdates"/>
         </methods>
       </class> <!-- com_Api.start_api -->
