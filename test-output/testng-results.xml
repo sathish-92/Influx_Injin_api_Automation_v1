@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="54923" started-at="2020-01-23T12:51:46 IST" finished-at="2020-01-23T12:52:41 IST">
+  <suite name="Suite" duration-ms="51174" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:56:35 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="54923" started-at="2020-01-23T12:51:46 IST" finished-at="2020-01-23T12:52:41 IST">
+    <test name="Test" duration-ms="51174" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:56:35 IST">
       <class name="com_Api.start_api">
-        <test-method status="PASS" signature="extent()[pri:0, instance:com_Api.start_api@27a8c74e]" name="extent" is-config="true" duration-ms="322" started-at="2020-01-23T12:51:46 IST" finished-at="2020-01-23T12:51:47 IST">
+        <test-method status="PASS" signature="extent()[pri:0, instance:com_Api.start_api@704a52ec]" name="extent" is-config="true" duration-ms="311" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:55:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extent -->
-        <test-method status="PASS" signature="films()[pri:0, instance:com_Api.start_api@27a8c74e]" name="films" duration-ms="9898" started-at="2020-01-23T12:51:47 IST" finished-at="2020-01-23T12:51:57 IST">
+        <test-method status="PASS" signature="films()[pri:0, instance:com_Api.start_api@704a52ec]" name="films" duration-ms="9465" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:55:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- films -->
-        <test-method status="PASS" signature="Showtimes()[pri:1, instance:com_Api.start_api@27a8c74e]" name="Showtimes" duration-ms="14543" started-at="2020-01-23T12:51:57 IST" finished-at="2020-01-23T12:52:11 IST">
+        <test-method status="PASS" signature="Showtimes()[pri:1, instance:com_Api.start_api@704a52ec]" name="Showtimes" duration-ms="7616" started-at="2020-02-25T10:55:54 IST" finished-at="2020-02-25T10:56:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Showtimes -->
-        <test-method status="PASS" signature="Session_id()[pri:2, instance:com_Api.start_api@27a8c74e]" name="Session_id" duration-ms="6848" started-at="2020-01-23T12:52:11 IST" finished-at="2020-01-23T12:52:18 IST">
+        <test-method status="PASS" signature="Session_id()[pri:2, instance:com_Api.start_api@704a52ec]" name="Session_id" duration-ms="13238" started-at="2020-02-25T10:56:01 IST" finished-at="2020-02-25T10:56:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Session_id -->
-        <test-method status="PASS" signature="seat_plan()[pri:3, instance:com_Api.start_api@27a8c74e]" name="seat_plan" duration-ms="8195" started-at="2020-01-23T12:52:18 IST" finished-at="2020-01-23T12:52:26 IST">
+        <test-method status="PASS" signature="seat_plan()[pri:3, instance:com_Api.start_api@704a52ec]" name="seat_plan" duration-ms="8744" started-at="2020-02-25T10:56:15 IST" finished-at="2020-02-25T10:56:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seat_plan -->
-        <test-method status="PASS" signature="create_order()[pri:4, instance:com_Api.start_api@27a8c74e]" name="create_order" duration-ms="11100" started-at="2020-01-23T12:52:26 IST" finished-at="2020-01-23T12:52:37 IST">
+        <test-method status="PASS" signature="create_order()[pri:4, instance:com_Api.start_api@704a52ec]" name="create_order" duration-ms="8525" started-at="2020-02-25T10:56:23 IST" finished-at="2020-02-25T10:56:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_order -->
-        <test-method status="PASS" signature="cancel_order()[pri:5, instance:com_Api.start_api@27a8c74e]" name="cancel_order" duration-ms="3753" started-at="2020-01-23T12:52:37 IST" finished-at="2020-01-23T12:52:41 IST">
+        <test-method status="PASS" signature="cancel_order()[pri:5, instance:com_Api.start_api@704a52ec]" name="cancel_order" duration-ms="3047" started-at="2020-02-25T10:56:32 IST" finished-at="2020-02-25T10:56:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancel_order -->
-        <test-method status="PASS" signature="extentend()[pri:0, instance:com_Api.start_api@27a8c74e]" name="extentend" is-config="true" duration-ms="225" started-at="2020-01-23T12:52:41 IST" finished-at="2020-01-23T12:52:41 IST">
+        <test-method status="PASS" signature="extentend()[pri:0, instance:com_Api.start_api@704a52ec]" name="extentend" is-config="true" duration-ms="194" started-at="2020-02-25T10:56:35 IST" finished-at="2020-02-25T10:56:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentend -->

@@ -5,9 +5,13 @@
     <classes>
       <class name="com_Api.start_api">
         <methods>
+          <include name="Showtimes"/>
           <include name="extentend"/>
           <include name="extent"/>
-          <include name="distinct_showdates"/>
+          <include name="films"/>
+          <include name="seat_plan"/>
+          <include name="create_order"/>
+          <include name="Session_id"/>
         </methods>
       </class> <!-- com_Api.start_api -->
     </classes>
