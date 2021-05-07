@@ -55,5 +55,28 @@ public class utilies {
 		   return jsonBody;
 	}
 	
+	public String intitate_pay_body() throws IOException {
+
+		   String jsonBody = generateStringFromResource("./Config/Initiate_pay_body.json");
+		   return jsonBody;
+	}
+	
+	public String update_user_body() throws IOException {
+
+		   String jsonBody = generateStringFromResource("./Config/Update_user_payload.json");
+		   return jsonBody;
+	}
     
+	public String cineapp_username()
+	{
+		String user_name1 = pro.getProperty("cine_app_username");
+		return user_name1;
+	}
+	
+	public String cineapp_Password()
+	{
+		String pass1 = pro.getProperty("cine_app_password");
+		return pass1;
+	}
+	
 }

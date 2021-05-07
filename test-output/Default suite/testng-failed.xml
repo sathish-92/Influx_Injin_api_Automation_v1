@@ -7,9 +7,7 @@
         <methods>
           <include name="extentend"/>
           <include name="extent"/>
-          <include name="films"/>
-          <include name="basic_auth"/>
-          <include name="distinct_showdates"/>
+          <include name="user_journey"/>
         </methods>
       </class> <!-- com_Api.start_api -->
     </classes>

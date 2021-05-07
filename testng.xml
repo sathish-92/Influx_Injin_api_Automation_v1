@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com_Api.start_api"/>
+      <class name="Start_Booking_Flow"/>
     </classes>
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->

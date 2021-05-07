@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51174" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:56:35 IST">
+  <suite name="Default suite" duration-ms="76147" started-at="2021-05-07T15:32:21 IST" finished-at="2021-05-07T15:33:37 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="51174" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:56:35 IST">
-      <class name="com_Api.start_api">
-        <test-method status="PASS" signature="extent()[pri:0, instance:com_Api.start_api@704a52ec]" name="extent" is-config="true" duration-ms="311" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:55:44 IST">
+    <test name="Default test" duration-ms="76147" started-at="2021-05-07T15:32:21 IST" finished-at="2021-05-07T15:33:37 IST">
+      <class name="com_Api.Start_Booking_Flow">
+        <test-method status="PASS" signature="extent()[pri:0, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="extent" is-config="true" duration-ms="107" started-at="2021-05-07T15:32:21 IST" finished-at="2021-05-07T15:32:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extent -->
-        <test-method status="PASS" signature="films()[pri:0, instance:com_Api.start_api@704a52ec]" name="films" duration-ms="9465" started-at="2020-02-25T10:55:44 IST" finished-at="2020-02-25T10:55:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- films -->
-        <test-method status="PASS" signature="Showtimes()[pri:1, instance:com_Api.start_api@704a52ec]" name="Showtimes" duration-ms="7616" started-at="2020-02-25T10:55:54 IST" finished-at="2020-02-25T10:56:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Showtimes -->
-        <test-method status="PASS" signature="Session_id()[pri:2, instance:com_Api.start_api@704a52ec]" name="Session_id" duration-ms="13238" started-at="2020-02-25T10:56:01 IST" finished-at="2020-02-25T10:56:15 IST">
+        <test-method status="PASS" signature="Session_id()[pri:0, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="Session_id" duration-ms="30171" started-at="2021-05-07T15:32:21 IST" finished-at="2021-05-07T15:32:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Session_id -->
-        <test-method status="PASS" signature="seat_plan()[pri:3, instance:com_Api.start_api@704a52ec]" name="seat_plan" duration-ms="8744" started-at="2020-02-25T10:56:15 IST" finished-at="2020-02-25T10:56:23 IST">
+        <test-method status="PASS" signature="seat_plan()[pri:1, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="seat_plan" duration-ms="13081" started-at="2021-05-07T15:32:52 IST" finished-at="2021-05-07T15:33:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seat_plan -->
-        <test-method status="PASS" signature="create_order()[pri:4, instance:com_Api.start_api@704a52ec]" name="create_order" duration-ms="8525" started-at="2020-02-25T10:56:23 IST" finished-at="2020-02-25T10:56:32 IST">
+        <test-method status="PASS" signature="create_order()[pri:2, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="create_order" duration-ms="13287" started-at="2021-05-07T15:33:05 IST" finished-at="2021-05-07T15:33:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_order -->
-        <test-method status="PASS" signature="cancel_order()[pri:5, instance:com_Api.start_api@704a52ec]" name="cancel_order" duration-ms="3047" started-at="2020-02-25T10:56:32 IST" finished-at="2020-02-25T10:56:35 IST">
+        <test-method status="PASS" signature="payment_types()[pri:3, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="payment_types" duration-ms="6121" started-at="2021-05-07T15:33:18 IST" finished-at="2021-05-07T15:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment_types -->
+        <test-method status="PASS" signature="Initiate_payment()[pri:4, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="Initiate_payment" duration-ms="8359" started-at="2021-05-07T15:33:24 IST" finished-at="2021-05-07T15:33:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiate_payment -->
+        <test-method status="PASS" signature="cancel_order()[pri:5, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="cancel_order" duration-ms="4820" started-at="2021-05-07T15:33:32 IST" finished-at="2021-05-07T15:33:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancel_order -->
-        <test-method status="PASS" signature="extentend()[pri:0, instance:com_Api.start_api@704a52ec]" name="extentend" is-config="true" duration-ms="194" started-at="2020-02-25T10:56:35 IST" finished-at="2020-02-25T10:56:35 IST">
+        <test-method status="PASS" signature="extentend()[pri:0, instance:com_Api.Start_Booking_Flow@6ee52dcd]" name="extentend" is-config="true" duration-ms="171" started-at="2021-05-07T15:33:37 IST" finished-at="2021-05-07T15:33:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentend -->
-      </class> <!-- com_Api.start_api -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com_Api.Start_Booking_Flow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com_Api.start_api">
         <methods>
-          <include name="Showtimes"/>
           <include name="extentend"/>
           <include name="extent"/>
-          <include name="films"/>
-          <include name="seat_plan"/>
-          <include name="create_order"/>
-          <include name="Session_id"/>
+          <include name="user_journey"/>
         </methods>
       </class> <!-- com_Api.start_api -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

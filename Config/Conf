@@ -1,3 +1,5 @@
-base_url = https://stg.strikeandreel.com/
+base_url = https://apistgcmx.influx.co.in/
 username = sathish.palanisamy@influx.co.in
-password = Sathish@123
+password = Sathish@1234
+cine_app_username = cmx.website@injin.com
+cine_app_password = Test@123
