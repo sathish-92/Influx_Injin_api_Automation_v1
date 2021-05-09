@@ -1,0 +1,5 @@
+{
+	"accessTokenExpiry" : "2000",
+	"keepMeSignedIn": false,
+	"getUserInfo": false
+}

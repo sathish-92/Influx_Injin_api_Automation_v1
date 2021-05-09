@@ -24,6 +24,11 @@ public class utilies {
 		
 	}
 	
+	public String access_token_body() throws IOException {
+
+		   String jsonBody = generateStringFromResource("./Config/access_token.json");
+		   return jsonBody;
+	}
 	
 	public String baseurl()
 	{

@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -128,6 +128,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com_Api.Start_Booking_Flow" hash-for-method="seat_plan">seat_plan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com_Api.Start_Booking_Flow" hash-for-method="user_details">user_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com_Api.Start_Booking_Flow" hash-for-method="user_journey">user_journey</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -190,12 +200,26 @@
                   <span class="method-name">seat_plan</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_details">
+                  </a> <!-- user_details -->
+                  <span class="method-name">user_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_journey">
+                  </a> <!-- user_journey -->
+                  <span class="method-name">user_journey</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/dg/55g8m2x56pj0lfkgz_bzfl840000gq/T/testng-eclipse--2065998322/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/dg/55g8m2x56pj0lfkgz_bzfl840000gq/T/testng-eclipse--421309475/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -204,7 +228,6 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com_Api.User_jounery_api&quot;/&gt;
       &lt;class name=&quot;com_Api.Start_Booking_Flow&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
@@ -219,7 +242,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (2 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,31 +268,39 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Session_id')
 data.setCell(0, 2, 'com_Api.Start_Booking_Flow')
-data.setCell(0, 3, 30171);
+data.setCell(0, 3, 54353);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'create_order')
+data.setCell(1, 1, 'seat_plan')
 data.setCell(1, 2, 'com_Api.Start_Booking_Flow')
-data.setCell(1, 3, 13287);
+data.setCell(1, 3, 17687);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'seat_plan')
+data.setCell(2, 1, 'create_order')
 data.setCell(2, 2, 'com_Api.Start_Booking_Flow')
-data.setCell(2, 3, 13081);
+data.setCell(2, 3, 16323);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Initiate_payment')
 data.setCell(3, 2, 'com_Api.Start_Booking_Flow')
-data.setCell(3, 3, 8359);
+data.setCell(3, 3, 9204);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'payment_types')
+data.setCell(4, 1, 'cancel_order')
 data.setCell(4, 2, 'com_Api.Start_Booking_Flow')
-data.setCell(4, 3, 6121);
+data.setCell(4, 3, 6348);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'cancel_order')
+data.setCell(5, 1, 'payment_types')
 data.setCell(5, 2, 'com_Api.Start_Booking_Flow')
-data.setCell(5, 3, 4820);
+data.setCell(5, 3, 6327);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'user_journey')
+data.setCell(6, 2, 'com_Api.Start_Booking_Flow')
+data.setCell(6, 3, 4299);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'user_details')
+data.setCell(7, 2, 'com_Api.Start_Booking_Flow')
+data.setCell(7, 3, 3072);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -307,31 +338,39 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Session_id</span>
-                <span class="method-start">122 ms</span>
+                <span class="method-start">266 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">seat_plan</span>
-                <span class="method-start">30296 ms</span>
+                <span class="method-start">54623 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">create_order</span>
-                <span class="method-start">43378 ms</span>
+                <span class="method-start">72312 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">payment_types</span>
-                <span class="method-start">56666 ms</span>
+                <span class="method-start">88636 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Initiate_payment</span>
-                <span class="method-start">62788 ms</span>
+                <span class="method-start">94964 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">cancel_order</span>
-                <span class="method-start">71150 ms</span>
+                <span class="method-start">104170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_journey</span>
+                <span class="method-start">110521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_details</span>
+                <span class="method-start">114822 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">extentend</span>
-                <span class="method-start">75972 ms</span>
+                <span class="method-start">117896 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
